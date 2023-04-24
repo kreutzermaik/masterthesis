@@ -1,1 +1,5 @@
-export { default as MyCounterButton } from './components/MyCounterButton.svelte';
+// styles
+import "./src/styles.css";
+
+// components
+export { default as Button } from "./src/Button.svelte";

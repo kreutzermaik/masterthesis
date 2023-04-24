@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "Styles and components for use in svelte websites",
   "type": "module",
-  "module": "index.ts",
   "svelte": "index.ts",
   "license": "MIT",
   "scripts": {
@@ -12,6 +11,11 @@
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
-    "svelte": "^3.9.2"
+    "svelte": "^3.9.2",
+    "postcss": "^8.4.14",
+    "autoprefixer": "^10.4.7",
+    "tsconfig": "*",
+    "typescript": "^4.5.2",
+    "tailwind-config": "workspace:*"
   }
 }
